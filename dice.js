@@ -3,4 +3,13 @@ console.log("-----------------------------------------");
 
 let answer = prompt("Roll the dice (y/n)");
 
-console.log(answer);
+//console.log(answer);
+
+while (true) {
+  if (answer === "y") {
+    console.log("print dice result");
+    break;
+  } else {
+    answer = prompt("Roll the dice (y/n)");
+  }
+}

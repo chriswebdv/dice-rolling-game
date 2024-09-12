@@ -6,7 +6,7 @@ let answer = prompt("Roll the dice (y/n)");
 //console.log(answer);
 
 while (true) {
-  if (answer === "y") {
+  if (answer.toLowerCase() === "y") {
     console.log("print dice result");
     break;
   } else {
